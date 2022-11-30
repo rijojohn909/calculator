@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8af2b362b6.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="calc">
+    <div id="hed">
+        <h1>Calculator</h1>
+    </div>
+    <div id="ind">
+    <input id="inp" type="text">
+    </div>
+    <div class="bttn">
+    <button class="btn1" onclick="displayValue('7')">7</button>
+    <button class="btn1" onclick="displayValue('8')">8</button>
+    <button class="btn1" onclick="displayValue('9')">9</button>
+    <button class="btn1" onclick="displayValue('*')">*</button>
+    </div>
+    <div class="bttn">
+    <button class="btn1" onclick="displayValue('4')">4</button>
+    <button class="btn1" onclick="displayValue('5')">5</button>
+    <button class="btn1" onclick="displayValue('6')">6</button>
+    <button class="btn1" onclick="displayValue('-')">-</button>
+    </div>
+    <div class="bttn">
+    <button class="btn1" onclick="displayValue('1')">1</button>
+    <button class="btn1" onclick="displayValue('2')">2</button>
+    <button class="btn1" onclick="displayValue('3')">3</button>
+    <button class="btn1" onclick="displayValue('+')">+</button>
+    </div>
+    <div class="bttn">
+    <button class="btn1" onclick="allClear()" >Ac</button>
+    <button class="btn1" onclick="displayValue('0')">0</button>
+    <button class="btn1" onclick="displayValue('/')"><i class="fa-solid fa-divide"></i></button>
+    <button class="btn1" onclick="evaluateOut()">=</button>
+    </div>
+    <div class="bttn">
+    <button class="btn1" onclick="back()" ><=</button>
+    </div>
+</div>
+<script src="calculator.js"></script>
+
+</body>
+</html>

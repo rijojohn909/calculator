@@ -1,0 +1,40 @@
+#calc{
+    height:100px;
+    width:50px;
+    margin-left: 45%;
+
+}
+body{
+    background-color: rgb(14, 12, 12);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.btn1{
+    float: left;
+    background-color: rgb(14, 12, 12);
+    border-color: gray;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bttn{
+    width: 160px;
+}
+#inp{
+    border-radius: 5px;
+    width: 135px;
+    height: 25px;
+    margin: 7px;
+}
+#ind{
+    width: 160px;
+    background-color: gray;
+}
+#hed{
+    width: 160px;
+}
